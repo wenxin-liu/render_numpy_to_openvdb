@@ -1,7 +1,13 @@
-Convert voxels into numpy array, then into VDB format, for import into Blender.
+# Render Numpy to OpenVDB
+
+Convert binvox voxels into numpy array, then using PyOpenVDB, convert from numpy array into VDB format, for import into e.g. Blender.
+
+## Build and install PyOpenVDB dependency
+
+build and installation instructions for pyopenvdb with use numpy featured enabled.
 
 
-build and installation instructions for pyopenvdb with numpy enabled, on macos
+### MacOS
 
 ```
 # use virtualenv, e.g. venv
@@ -34,7 +40,7 @@ sudo make install
 cp  /usr/local/lib/python3.9/site-packages/pyopenvdb.cpython-39-darwin.so /Users/wenxinliu/Documents/thesis/render_images/venv/lib/python3.9/site-packages/
 ```
 
-To use:
+## Run instruction
 
 ```agsl
 python3 main.py
