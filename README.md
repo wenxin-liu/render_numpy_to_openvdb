@@ -4,7 +4,7 @@ Convert binvox voxels into numpy array, then using PyOpenVDB, convert from numpy
 
 ## Build and install PyOpenVDB dependency
 
-build and installation instructions for pyopenvdb with use numpy featured enabled.
+Build and installation instructions for pyopenvdb with use numpy featured enabled.
 
 
 ### MacOS
